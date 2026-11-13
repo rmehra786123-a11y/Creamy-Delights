@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    overflow-x:hidden;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 60px;
+    background:#f9e7f1;
+}
+
+.logo{
+    font-size:40px;
+    font-weight:bold;
+    color:#e40f6f;
+    font-family:"Sofia", cursive;
+}
+
+nav{
+    display:flex;
+    gap:20px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#e40f6f;
+    font-size:18px;
+    padding:10px 15px;
+}
+
+.icons{
+    display:flex;
+    gap:12px;
+    font-size:20px;
+    color:#e40f6f;
+}

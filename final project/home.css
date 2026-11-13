@@ -1,0 +1,656 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#fff8fb;
+}
+
+/* NAVBAR */
+
+
+/* Navbar */
+
+header {
+    width: 100%;
+    height: 85px;
+    background-color: #ffdce6;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 10px 20px;
+    box-sizing: border-box;
+
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(180, 80, 110, 0.15);
+}
+
+
+/* Logo */
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo i {
+    font-size: 40px;
+    color: #e40f6f;
+}
+
+.logo h2 {
+    margin: 0;
+    font-size: 25px;
+    color:#e40f6f;
+    font-family: Georgia, serif;
+}
+
+.logo p {
+    margin: 3px 0 0;
+    font-size: 13px;
+    color: #e40f6f;
+}
+
+
+/* Navigation */
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #e40f6f;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #000000;
+}
+
+
+/* Icons */
+
+.icons {
+    display: flex;
+    gap: 20px;
+}
+
+.icons i {
+    font-size: 20px;
+    color:#e40f6f;
+    cursor: pointer;
+}
+
+.icons i:hover {
+    color: #f5d1db;
+}
+
+
+
+
+
+
+
+
+
+/* HERO */
+
+.hero{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:70px 8%;
+
+}
+
+.hero-text{
+
+width:50%;
+
+}
+
+.hero-text span{
+
+color:#e40f6f;
+
+font-weight:600;
+
+}
+
+.hero-text h1{
+
+font-size:70px;
+
+margin:20px 0;
+
+color:#222;
+
+line-height:80px;
+
+}
+
+.hero-text h1 span{
+
+display:block;
+
+font-size:82px;
+
+color:#e40f6f;
+
+}
+
+.hero-text p{
+
+font-size:18px;
+
+color:#666;
+
+line-height:32px;
+
+margin:25px 0;
+
+}
+
+.buttons{
+
+display:flex;
+
+gap:20px;
+
+margin-top:35px;
+
+}
+
+.btn1{
+
+background:#e40f6f;
+
+color:#fff;
+
+padding:14px 28px;
+
+border-radius:35px;
+
+text-decoration:none;
+
+font-weight:600;
+
+}
+
+.btn2{
+
+padding:14px 28px;
+
+border:2px solid #e40f6f;
+
+border-radius:35px;
+
+text-decoration:none;
+
+color:#e40f6f;
+
+font-weight:600;
+
+}
+
+.btn1:hover{
+
+background:#e40f6f;
+
+}
+
+.btn2:hover{
+
+background:#e40f6f;
+
+color:white;
+
+}
+
+.hero-image{
+
+width:45%;
+
+
+}
+
+.hero-image img{
+
+width:98%;
+height:540px;
+border-radius:25px;
+
+}
+/*--------------- TITLE ---------------*/
+
+.title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.title h2{
+    font-size:40px;
+    color:#e40f6f;
+}
+
+.title p{
+    color:#666;
+    margin-top:10px;
+}
+
+/*--------------- CAKES ---------------*/
+
+.cakes{
+    padding:80px 8%;
+}
+
+.cake-container{
+    display:flex;
+    justify-content:space-between;
+    gap:25px;
+}
+
+.cake-card{
+    width:24%;
+    background:#fff;
+    border-radius:20px;
+    text-align:center;
+    padding:20px;
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.cake-card:hover{
+    transform:translateY(-10px);
+}
+
+.cake-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:15px;
+    
+}
+
+.cake-card h3{
+    margin:15px 0 8px;
+    color:#333;
+}
+
+.cake-card p{
+    color:#e40f6f;
+    font-weight:600;
+}
+
+.stars{
+    color:gold;
+    margin:12px 0;
+}
+
+.cake-card button{
+    background:#e40f6f;
+    color:#fff;
+    border:none;
+    padding:12px 25px;
+    border-radius:30px;
+    cursor:pointer;
+    font-size:15px;
+}
+
+.cake-card button:hover{
+    background:#e40f6f;
+}
+
+/*--------------- WHY CHOOSE US ---------------*/
+
+.choose{
+    padding:80px 8%;
+    background:#ffe3ef;
+}
+
+.choose-box{
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+}
+
+.box{
+    width:24%;
+    background:#fff;
+    padding:30px 20px;
+    text-align:center;
+    border-radius:20px;
+    box-shadow:0 8px 18px rgba(0,0,0,.08);
+}
+
+.box i{
+    font-size:45px;
+    color:#e40f6f;
+    margin-bottom:15px;
+}
+
+.box h3{
+    margin-bottom:10px;
+    color:#333;
+}
+
+.box p{
+    color:#666;
+    line-height:24px;
+}
+/*========== REVIEWS ==========*/
+
+.reviews{
+    padding:80px 8%;
+}
+
+.review-container{
+    display:flex;
+    justify-content:space-between;
+    gap:25px;
+}
+
+.review-card{
+    width:32%;
+    background:#fff;
+    text-align:center;
+    padding:30px 20px;
+    border-radius:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.review-card img{
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:15px;
+}
+
+.review-card h3{
+    margin-bottom:10px;
+}
+
+.review-card p{
+    color:#666;
+    line-height:26px;
+    margin-top:10px;
+}
+
+/*========== OFFER ==========*/
+
+.offer{
+    margin:80px 8%;
+    background:#ffeaf3;
+    border-radius:25px;
+    padding:50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.offer-text h2{
+    font-size:60px;
+    color:#e40f6f;
+}
+
+.offer-text h3{
+    font-size:35px;
+    margin:10px 0;
+}
+
+.offer-text p{
+    color:#666;
+    margin:20px 0;
+}
+
+.offer-btn{
+    display:inline-block;
+    padding:14px 30px;
+    background:#e40f6f;
+    color:#fff;
+    text-decoration:none;
+    border-radius:30px;
+}
+
+.offer-image img{
+    width:320px;
+}
+
+/*========== GALLERY ==========*/
+
+.gallery{
+    padding:80px 8%;
+}
+
+.gallery-box{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+.gallery-box img{
+    width:100%;
+    height:260px;
+    object-fit:cover;
+    border-radius:20px;
+    transition:.4s;
+}
+
+.gallery-box img:hover{
+    transform:scale(1.05);
+}
+/*=============== NEWSLETTER ===============*/
+
+.newsletter{
+    padding:80px 8%;
+    text-align:center;
+    background:#ffeaf3;
+}
+
+.newsletter h2{
+    font-size:40px;
+    color:#e40f6f;
+}
+
+.newsletter p{
+    margin:15px 0 30px;
+    color:#666;
+}
+
+.newsletter form{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.newsletter input{
+    width:350px;
+    padding:15px;
+    border:none;
+    border-radius:30px;
+    outline:none;
+    font-size:16px;
+}
+
+.newsletter button{
+    padding:15px 35px;
+    border:none;
+    border-radius:30px;
+    background:#e40f6f;
+    color:#fff;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.newsletter button:hover{
+    background:#e40f6f;
+}
+
+/*=============== FOOTER ===============*/
+
+footer{
+    background:#222;
+    color:#fff;
+    padding:60px 8% 20px;
+}
+
+.footer-container{
+    display:flex;
+    justify-content:space-between;
+    gap:40px;
+    flex-wrap:wrap;
+
+}
+
+.footer-box{
+    flex:1;
+    min-width:220px;
+}
+
+.footer-box h2,
+.footer-box h3{
+    margin-bottom:20px;
+    color:#ff7eb3;
+}
+
+.footer-box p{
+    color:#ddd;
+    line-height:28px;
+}
+
+.footer-box a{
+    display:block;
+    color:#ddd;
+    text-decoration:none;
+    margin-bottom:12px;
+    transition:.3s;
+}
+
+.footer-box a:hover{
+    color:#ff7eb3;
+}
+
+.social{
+    margin-top:20px;
+}
+
+.social i{
+    width:40px;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    background:#ff4d8d;
+    border-radius:50%;
+    margin-right:10px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.social i:hover{
+    background:#fff;
+    color:#ff4d8d;
+}
+
+hr{
+    margin:40px 0 20px;
+    border:1px solid #444;
+}
+
+.copy{
+    text-align:center;
+    color:#bbb;
+}
+
+/*=============== RESPONSIVE ===============*/
+
+@media(max-width:992px){
+
+.hero,
+.offer{
+    flex-direction:column;
+    text-align:center;
+}
+
+.hero-text,
+.hero-image,
+.offer-text,
+.offer-image{
+    width:100%;
+}
+
+.cake-container,
+.review-container,
+.choose-box{
+    flex-wrap:wrap;
+}
+
+.cake-card,
+.review-card,
+.box{
+    width:48%;
+}
+
+.gallery-box{
+    grid-template-columns:repeat(2,1fr);
+}
+
+header{
+    flex-direction:column;
+    gap:20px;
+}
+
+nav ul{
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+}
+
+@media(max-width:768px){
+
+.hero-text h1{
+    font-size:45px;
+    line-height:55px;
+}
+
+.hero-text h1 span{
+    font-size:55px;
+}
+
+.cake-card,
+.review-card,
+.box{
+    width:100%;
+}
+
+.gallery-box{
+    grid-template-columns:1fr;
+}
+
+.newsletter input{
+    width:100%;
+}
+
+.newsletter button{
+    width:100%;
+}
+
+.footer-container{
+    flex-direction:column;
+}
+}

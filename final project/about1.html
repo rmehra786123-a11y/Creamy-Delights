@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Hurricane&family=Pinyon+Script&family=Sofia&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+
+
+
+</head>
+<style>
+    .about img {
+        width: 39%;
+        height: 40%;
+        border-radius: 10%;
+        margin-left: 50px;
+        margin-top: 6%;
+
+    }
+
+    .about h1 {
+        font-size: 55px;
+        color: #e40f6f;
+        line-height: 1.2;
+        margin-bottom: 20px;
+        text-align: center;
+        margin-left: 20%;
+        font-family: "Ultra", serif;
+        font-weight: 400;
+        margin-top: -49%;
+    }
+
+    .nosifer-regular {
+        font-family: "Nosifer", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .pinyon-script-regular {
+        font-family: "Pinyon Script", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .about h2 {
+        color: #e40f6f;
+        font-family: "Pinyon Script", cursive;
+        text-align: right;
+        margin-right: 21%;
+        font-weight: 25%;
+    }
+
+    .about p {
+        text-align: justify;
+        align-items: justify;
+        margin-left: 49%;
+        line-height: 1.8;
+        margin-top: 47px;
+
+    }
+
+
+    body {
+        overflow-x: hidden;
+    }
+
+    *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    overflow-x:hidden;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 60px;
+    background:#f9e7f1;
+}
+
+.logo{
+    font-size:40px;
+    font-weight:bold;
+    color:#e40f6f;
+    font-family:"Sofia", cursive;
+}
+
+nav{
+    display:flex;
+    gap:20px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#e40f6f;
+    font-size:18px;
+    padding:10px 15px;
+}
+
+.icons{
+    display:flex;
+    gap:12px;
+    font-size:20px;
+    color:#e40f6f;
+}
+
+
+    .features {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        width: 45%;
+        height: 25%;
+        margin-left: 49%;
+        margin-top: 3%;
+
+    }
+
+    .feature-card {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        background: #fcf6f6;
+        padding: 1px solid #f6d7e2;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+        align-items: right;
+        border-radius: 26px;
+        margin-left: -1px;
+        height: 80px;
+    }
+
+    .icon {
+        width: 55px;
+        height: 55px;
+        background: #e40f6f;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+    }
+
+    .feature-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 25px rgba(228, 15, 111, 0.18);
+    }
+
+    .content h3 {
+        font-size: 18px;
+        color: #333;
+        font-weight: 600;
+        font-family: Arial, sans-serif;
+        margin-top: 19px;
+
+    }
+
+    .content p {
+        margin-top: 9px;
+        font-size: 13px;
+        color: black;
+        line-height: 1.0;
+        text-align: left;
+        margin-right: -3%;
+        margin-left: 0%;
+    }
+
+    .btn-box {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        width: 45%;
+        margin-left: 49%;
+        border-radius: 30px;
+
+    }
+
+    .order-btn {
+        display: inline-flex;
+        padding: 12px 30px;
+        background: #e40f6f;
+        justify-content: center;
+        color: white;
+        text-decoration: none;
+        border-radius: 30px;
+        font-size: 18px;
+        font-weight: bold;
+        gap: 10px;
+        align-items: center;
+        margin-right: -142%;
+    }
+
+    .order-btn:hover {
+        background: #c90c60; 
+    }
+
+    .order-btn i {
+        margin-right: 8px;
+    }
+
+    .order-btn p {
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .start-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 50px 0;
+    }
+
+    .start-container {
+        margin: 4%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #fff7f8;
+        border: 1px solid #f6d8df;
+        border-radius: 20px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+        overflow: hidden;
+    }
+
+    .start-box {
+        flex: 1;
+        padding:25px;
+        border-right: 1px solid #f1d6dc;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .start-box:last-child {
+        border-right: none;
+    }
+
+    .card-icon {
+        font-size: 35px;
+        color: #fcf6f6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin-bottom: 12px;
+    }
+
+    .start-box h2 {
+        font-size: 35px;
+        color: #222;
+        font-weight: 700;
+        margin-bottom: 8px;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .start-box p {
+        font-size: 15px;
+        color: #555;
+        font-weight: 500;
+        margin:0;
+        text-align: center;
+    }
+
+    .start-box:hover {
+        background: #ffeef3;
+        transition: 0.4s;
+        transform: translateY(-5px);
+    }
+    
+/*=============== FOOTER ===============*/
+
+footer{
+    background:#222;
+    color:#fff;
+    padding:60px 8% 20px;
+}
+
+.footer-container{
+    display:flex;
+    justify-content:space-between;
+    gap:40px;
+    flex-wrap:wrap;
+}
+
+.footer-box{
+    flex:1;
+    min-width:220px;
+}
+
+.footer-box h2,
+.footer-box h3{
+    margin-bottom:20px;
+    color:#ff7eb3;
+}
+
+.footer-box p{
+    color:#ddd;
+    line-height:28px;
+}
+
+.footer-box a{
+    display:block;
+    color:#ddd;
+    text-decoration:none;
+    margin-bottom:12px;
+    transition:.3s;
+}
+
+.footer-box a:hover{
+    color:#ff7eb3;
+}
+
+.social{
+    margin-top:20px;
+}
+
+.social i{
+    width:40px;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    background:#ff4d8d;
+    border-radius:50%;
+    margin-right:10px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.social i:hover{
+    background:#fff;
+    color:#ff4d8d;
+}
+
+hr{
+    margin:40px 0 20px;
+    border:1px solid #444;
+}
+
+.copy{
+    text-align:center;
+    color:#bbb;
+}
+</style>
+
+<body>
+    <header>
+
+        <div class="logo">Creamy Delights</div>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about1.html">About</a>
+            <a href="special.html">Special</a>
+            <a href="pfaq.html">FAQ's</a>
+            <a href="pcontact.html">Contact Us</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-bag-shopping"></i>
+            <i class="fa-regular fa-user"></i>
+        </div>
+    </header>
+    <div class="about">
+        <div class="img"><img src="https://todaymommy.com/wp-content/uploads/2024/11/v2-lox1r-iqb9j-768x981.jpg"
+                alt="cake">
+
+            <h1>About Us</h1>
+            <h2>Baked With Love, Made For Every Celebration</h2>
+            <p>At Creamy Delights, we believe every celebration deserves a<br> perfect cake. Our cakes are freshly baked
+                using premium<br> ingredients, creative designs, and delicious flavours.<br>
+                Whether it's birthday,anniversary,wedding, or any special <br>moment, we create sweet memories with
+                every slice. </p>
+        </div>
+    </div>
+    <div class="features">
+        <div class="feature-card">
+            <div class="icon"><i class="fa-solid fa-cake-candles" style="color: rgb(255, 220, 252);"></i>
+            </div>
+            <div class="content">
+                <h3>Freshly Baked</h3>
+                <p>Every cake is baked fresh every day.</p>
+            </div>
+        </div>
+        <div class="feature-card">
+            <div class="icon">
+                <i class="fa-solid fa-leaf" style="color: rgb(255, 220, 252);"></i>
+            </div>
+            <div class="content">
+                <h3>Premium Ingredients</h3>
+                <p>We use only high quality ingredients.</p>
+            </div>
+        </div>
+        <div class="feature-card">
+            <div class="icon"><i class="fa-regular fa-truck" style="color: rgb(247, 217, 247);"></i>
+            </div>
+            <div class="content">
+                <h3>Fast & Safe Delivery</h3>
+                <p> Quick and Safe delivery to your doorstep.</p>
+            </div>
+        </div>
+        <div class="feature-card">
+            <div class=" icon"><i class="fa-solid fa-heart" style="color: rgb(255, 220, 252);"></i></div>
+            <div class="content">
+                <h3>Made With Love </h3>
+                <p>Every cake is crafted with love and care.</p>
+            </div>
+        </div>
+
+        <div class="btn-box">
+            <a href="#" class="order-btn">
+                <i class="fa-regular fa-heart" style="color: rgb(250, 203, 247);"></i>
+                Order Now
+            </a>
+        </div>
+    </div>
+
+    <div class="start-container">
+        <div class="start-box">
+        <div class="card-icon">
+            <i class="fa-solid fa-people-line" style="color:#e40f6f;"></i>
+        </div>
+        <h2>500+</h2>
+        <p>Happy Customers</p>
+    </div>
+    <div class="start-box">
+    <div class="card-icon">
+        <i class="fa-solid fa-cake-candles" style="color:#e40f6f; "></i>
+    </div>
+    <h2>50+</h2>
+    <p>Cake Flavours</p>
+    </div>
+    <div class="start-box">
+        <div class="card-icon">
+            <i class="fa-regular fa-truck" style="color:#e40f6f;"></i>
+        </div>
+        <h2>1000+</h2>
+        <p>Cake Delivered</p>
+    </div>
+    <div class="start-box">
+        <div class="card-icon">
+            <i class="fa-regular fa-star" style="color: #e40f6f"></i>
+        </div>
+        <h2>5<i class="fa-solid fa-star" style="color: #e40f6f"></i></h2>
+        <p>Customer Rating</p>
+    </div>
+
+    </div>
+
+<!--=============== FOOTER ===============-->
+
+<footer>
+
+    <div class="footer-container">
+
+        <div class="footer-box">
+
+            <h2>Creamy Delights</h2>
+
+            <p>
+                Freshly baked cakes made with love for every special occasion.
+            </p>
+
+            <div class="social">
+
+                <i class="fa-brands fa-facebook-f"></i>
+
+                <i class="fa-brands fa-instagram"></i>
+
+                <i class="fa-brands fa-twitter"></i>
+
+                <i class="fa-brands fa-pinterest"></i>
+
+            </div>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Quick Links</h3>
+
+            <a href="home.html">Home</a>
+
+            <a href="about1.html">About</a>
+
+            <a href="special.html">Special</a>
+
+            <a href="pfaq.html">FAQ's</a>
+
+            <a href="pcontact.html">Contact</a>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Contact</h3>
+
+            <p><i class="fa-solid fa-location-dot"></i> Punjab, India</p>
+
+            <p><i class="fa-solid fa-phone"></i> +91 98765 43210</p>
+
+            <p><i class="fa-solid fa-envelope"></i> info@creamydelights.com</p>
+
+        </div>
+
+    </div>
+
+    <hr>
+
+    <p class="copy">
+        © 2026 Creamy Delights | All Rights Reserved
+    </p>
+
+</footer>
+</body>
+
+</html>
